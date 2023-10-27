@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import LogoAzul from "../assets/imgs/logo.png";
-import LogoBranca from "../assets/imgs/logo.png";
+import LogoBranca from "../assets/imgs/logo-branca.png";
 
 function Navigation() {
   const [navbarClass, setNavbarClass] = useState("");
@@ -28,15 +28,15 @@ function Navigation() {
 
   return (
     <>
-      <nav className={`${navbarClass} z-10 hidden md:block`}>
+      <nav className={`${navbarClass} z-30 hidden md:block`}>
         <div className="h-full flex justify-between items-center px-24">
           <div className="w-40">
             <img
-              src={navbarClass !== "" ? LogoAzul : LogoBranca}
+              src={!navbarClass ? LogoAzul : LogoBranca}
               alt="Mistura Explosivav"
             />
           </div>
-          <ul className="flex md:gap-10 font-bold md:text-sm lg:text-lg">
+          <ul className="flex md:gap-10 font-bold text-sm lg:text-md">
             <li className="cursor-pointer hover:text-mOrange duration-300 focus:text-mOrange">
               <ScrollLink to="inicio" smooth={true} offset={-50}>
                 <h2>Início</h2>

@@ -1,17 +1,11 @@
 import React from "react";
-import sistemaCFQ from "../../assets/imgs/sistema-cfq.png";
-import abipla from "../../assets/imgs/abipla.png";
+import RodapeLogos from '../../assets/imgs/rodape-logos.png'
 
 const Footer = () => {
   return (
     <footer className="footer shadow-lg py-10 px-10 md:px-0">
       <div className="flex justify-center items-center gap-10">
-        <div className="max-w-[200px]">
-          <img src={sistemaCFQ} alt="" />
-        </div>
-        <div className="max-w-[200px]">
-          <img src={abipla} alt="" />
-        </div>
+        <img className="w-80" src={RodapeLogos} alt="" />
       </div>
       <div className="flex flex-col gap-5 items-center mt-10">
         <div class="flex gap-5">

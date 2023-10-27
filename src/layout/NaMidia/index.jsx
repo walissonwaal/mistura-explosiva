@@ -1,16 +1,18 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 const NaMidia = () => {
+  const { ref: naMmidiaRef, inView: inViewNaMidia } = useInView();
   return (
-    <div className="py-6 px-6 md:py-20 md:px-40 bg-mYellow">
-      <h1 className="text-5xl text-center md:text-start md:text-6xl font-black text-mPurple">NA MÍDIA</h1>
-      <h3 className="text-2xl text-center md:text-start md:text-4xl font-bold py-10 text-mPurple">
+    <div className="py-6 px-6 md:py-20 md:px-40 bg-mPurple">
+      <h1 ref={naMmidiaRef} className={`${inViewNaMidia ? 'fade-in-left':''} text-5xl text-center md:text-start md:text-6xl font-black text-white`}>NA MÍDIA</h1>
+      <h3 className="text-2xl text-center md:text-start font-bold py-10 text-white">
         Acompanhe algumas inserções da campanha “Mistura Explosiva: Limpando
         conceitos, clareando ideias!” nos principais veículos de comunicação do
         país ao longo dos anos.
       </h3>
       <div>
-        <div class="expandable-section bg-mSecondaryBlue text-white font-medium">
+        <div class="expandable-section bg-mPurple text-white font-bold">
           <ul>
             <a
             className="hover:bg-mOrange duration-300"

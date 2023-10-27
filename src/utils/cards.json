@@ -1,0 +1,39 @@
+{
+  "cards": {
+    "inicio": {
+      "pathImage": "../../assets/imgs/inicio.png",
+      "title": "Casa “Início”",
+      "paragraph": "Local onde os peões devem ser posicionados para dar início à partida. São necessários no mínimo dois e no máximo seis jogadores(as). Um de cada vez, os(as) jogadores(as) devem jogar o dado e andar pelo trajeto do tabuleiro posicionando seu peão de acordo com o valor obtido."
+    },
+    "cenarioQrCode": {
+      "pathImage": "",
+      "title": "",
+      "paragraph": ""
+    },
+    "CasaBege": {
+      "pathImage": "",
+      "title": "",
+      "paragraph": ""
+    },
+    "casaLilas": {
+      "pathImage": "",
+      "title": "",
+      "paragraph": ""
+    },
+    "casaLaranja": {
+      "pathImage": "",
+      "title": "",
+      "paragraph": ""
+    },
+    "sentidoDoMovimento": {
+      "pathImage": "",
+      "title": "",
+      "paragraph": ""
+    },
+    "CasaFim": {
+      "pathImage": "",
+      "title": "",
+      "paragraph": ""
+    }
+  }
+}

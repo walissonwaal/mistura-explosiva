@@ -1,13 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .titulo-jogo {
+  visibility: hidden;
+} */
+
+.navbar {
+  background-color: transparent;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  transition: background-color 0.3s;
+}
+
+.navbar.scrolled {
+  background-color: white;
+  color: #707070;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 5rem;
+}
+
+.jogo {
+  background: transparent linear-gradient(180deg, #2B1F4E 0%, #522B84 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.personagem img {
+  /* max-width: 100%;
+  height: 500px; */
+}
+
+.regras {
+  background: transparent linear-gradient(180deg, #2B1F4E 0%, #522B84 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.vamos-jogar {
+  background: transparent linear-gradient(180deg, #2B1F4E 0%, #522B84 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.card {
+  box-shadow: 0px 6px 12px #00000029;
+  border-radius: 24px;
+  opacity: 1;
+}
+
+.expandable-section {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 2rem;
+  text-align: center;
+}
+
+.expandable-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expandable-section a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  transition: border-color 0.25s, background-color 0.50s;
+}
+
+.footer {
+  background: transparent linear-gradient(180deg, #2B1F4E 0%, #522B84 100%) 0% 0% no-repeat padding-box;
+}
+
+.progress-bar {
+  z-index: 50;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background-color: #EE7C4A;
+  transform-origin: 0%;
+}
+
+.mobile-menu {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff; /* Cor de fundo */
+  transition: transform 0.3s;
+  z-index: 1000; /* Certifique-se de que o menu esteja acima de outros elementos */
+}
+
+.dropdown-mobile {
+  transform: translateX(0);
+  transition: transform 0.3s;
+  z-index: 1000; /* Certifique-se de que o menu esteja acima de outros elementos */
+}
+
+p {
+  margin-bottom: 1.5rem;
 }

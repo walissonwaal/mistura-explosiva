@@ -33,7 +33,7 @@ const Campanha = () => {
       <h3 ref={comotudoComecouRef} className={`${inViewComoTudoComecou ? 'fade-in-right':''} text-2xl md:text-4xl text-mPurple font-bold py-5 md:py-10`}>
         Como tudo começou...
       </h3>
-      <p className="text-mPurple text-xl text-justify md:text-start font-medium pb-10">
+      <p className="text-mPurple text-xl text-justify md:text-start font-medium pb-8">
         No final do mês de agosto de 2022, a campanha “Mistura Explosiva:
         Limpando conceitos, clareando ideias” começou a ser divulgada. Como
         primeira ação, o CFQ e a ABIPLA promoveram o primeiro Workshop para
@@ -80,7 +80,7 @@ const Campanha = () => {
         A campanha começou a mostrar os perigos de misturar produtos de limpeza
         sem orientação da ANVISA ou de um Profissional da Química.
       </p>
-      <div className="flex justify-center gap-10 mb-20">
+      <div className="flex justify-center gap-10 mb-10">
         <ScrollReveal className="max-w-lg">
           <img className="rounded-3xl" src={img1} alt="" />
         </ScrollReveal>
@@ -91,7 +91,7 @@ const Campanha = () => {
           <img className="rounded-3xl" src={img3} alt="" />
         </ScrollReveal>
       </div>
-      <div className="w-full flex justify-center px-40 gap-10">
+      <div className="w-full flex justify-center px-40 gap-10 mb-8">
         <ScrollReveal className="max-w-xs 2xl:max-w-md">
           <img className="rounded-3xl" src={img4} alt="" />
         </ScrollReveal>
@@ -107,7 +107,7 @@ const Campanha = () => {
         Explosiva foi apresentado na 19ª Semana Nacional de Ciência e Tecnologia
         do Ministério da Ciência, Tecnologia e Inovação (MCTI).
       </p>
-      <div className="flex justify-center gap-10 justify-items-center px-20 mb-20 px-20">
+      <div className="flex justify-center gap-10 justify-items-center px-20 mb-10 px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5">
           <div>
             <img src={img03} alt="Imagem" />

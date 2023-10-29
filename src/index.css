@@ -165,6 +165,10 @@ p {
   animation: fade-in-right 2s ease 0s 1 normal forwards;
 }
 
+.img-campanha {
+  border-radius: 23px 23px 0 0;
+}
+
 @keyframes fade-in-right {
 	0% {
 		opacity: 0;

@@ -46,7 +46,7 @@ const NaMidia = () => {
               </li>
             </a>
             <a
-            className="hover:bg-mOrange duration-300" href="https://www.youtube.com/watch?v=J-iLXojD_c4&t=113s">
+            className="hover:bg-mOrange duration-300" href="https://www.youtube.com/watch?v=J-iLXojD_c4&t=113s" target="_blank">
               <li class="px-4 md:px-10 text-sm md:text-lg">SBT - Receitas Perigosas</li>
             </a>
             <a
@@ -60,7 +60,7 @@ const NaMidia = () => {
               </li>
             </a>
             <a
-            className="hover:bg-mOrange duration-300" href="https://www.quimica.com.br/o-risco-das-misturas-caseiras-abipla/ ">
+            className="hover:bg-mOrange duration-300" href="https://www.quimica.com.br/o-risco-das-misturas-caseiras-abipla/" target="_blank">
               <li class="px-4 md:px-10 text-sm md:text-lg">
                 {" "}
                 O risco das misturas caseiras!

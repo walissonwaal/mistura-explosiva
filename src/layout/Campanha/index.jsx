@@ -43,18 +43,18 @@ const Campanha = () => {
       <div className="md:px-20 flex flex-col md:flex-row gap-10 justify-center mb-10 md:mb-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5">
           <div>
-            <img src={img01} alt="Imagem" />
+            <img className="img-campanha" src={img01} alt="Imagem" />
           </div>
           <div className="w-full flex justify-center mb-5">
-            <ButtonCampanha>Veja</ButtonCampanha>
+            <ButtonCampanha href='https://www.instagram.com/p/CiQU1wjM75u/?igshid=MzRlODBiNWFlZA%3D%' target='_blank'>Veja</ButtonCampanha>
           </div>
         </ScrollReveal>
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5">
           <div>
-            <img src={img02} alt="Imagem" />
+            <img className="img-campanha" src={img02} alt="Imagem" />
           </div>
           <div className="w-full flex justify-center mb-5">
-            <ButtonCampanha>Veja</ButtonCampanha>
+            <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720301763777' target='_blank'>Veja</ButtonCampanha>
           </div>
         </ScrollReveal>
       </div>
@@ -82,16 +82,24 @@ const Campanha = () => {
       </p>
       <div className="flex flex-col md:flex-row justify-center gap-10 mb-10">
         <ScrollReveal className="max-w-lg">
+          <a href="https://www.instagram.com/cfquimica/" target="_blank">
           <img className="rounded-3xl" src={img1} alt="" />
+          </a>
         </ScrollReveal>
         <ScrollReveal className="max-w-lg">
+        <a href="https://www.instagram.com/cfquimica/" target="_blank">
           <img className="rounded-3xl" src={img2} alt="" />
+          </a>
         </ScrollReveal>
         <ScrollReveal className="max-w-lg">
+        <a href="https://www.instagram.com/cfquimica/" target="_blank">
           <img className="rounded-3xl" src={img3} alt="" />
+          </a>
         </ScrollReveal>
         <ScrollReveal className="max-w-lg md:hidden">
+        <a href="https://www.instagram.com/cfquimica/" target="_blank">
           <img className="rounded-3xl" src={img4} alt="" />
+          </a>
         </ScrollReveal>
         <ScrollReveal className="max-w-lg md:hidden">
           <img className="rounded-3xl" src={img5} alt="" />
@@ -99,10 +107,14 @@ const Campanha = () => {
       </div>
       <div className="hidden md:w-full md:flex justify-center px-40 gap-10 mb-8">
         <ScrollReveal className="max-w-xs 2xl:max-w-md">
+        <a href="https://www.instagram.com/cfquimica/" target="_blank">
           <img className="rounded-3xl" src={img4} alt="" />
+          </a>
         </ScrollReveal>
         <ScrollReveal className="max-w-xs 2xl:max-w-md">
+        <a href="https://www.instagram.com/cfquimica/" target="_blank">
           <img className="rounded-3xl" src={img5} alt="" />
+          </a>
         </ScrollReveal>
       </div>
       <p className="text-mPurple md:text-xl md:text-start font-medium md:py-10">
@@ -116,18 +128,18 @@ const Campanha = () => {
       <div className="flex flex-col md:flex-row justify-center gap-10 justify-items-center md:px-20 mb-10 md:px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5">
           <div>
-            <img src={img03} alt="Imagem" />
+            <img className="img-campanha" src={img03} alt="Imagem" />
           </div>
           <div className="flex justify-center mb-5">
-            <ButtonCampanha>Acesse</ButtonCampanha>
+            <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720304444921' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5">
           <div>
-            <img src={img04} alt="Imagem" />
+            <img className="img-campanha" src={img04} alt="Imagem" />
           </div>
           <div className="flex justify-center mb-5">
-            <ButtonCampanha>Acesse</ButtonCampanha>
+            <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720304121892' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
       </div>
@@ -138,64 +150,64 @@ const Campanha = () => {
       <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
           <div>
-            <img src={img05} alt="Imagem" />
+            <img className="img-campanha" src={img05} alt="Imagem" />
           </div>
           <div className="flex justify-center mb-5">
-            <ButtonCampanha>Acesse</ButtonCampanha>
+            <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720307270548' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
           <div>
-            <img src={img06} alt="Imagem" />
+            <img className="img-campanha" src={img06} alt="Imagem" />
           </div>
           <div className="flex justify-center mb-5">
-            <ButtonCampanha>Acesse</ButtonCampanha>
-          </div>
-        </ScrollReveal>
-      </div>
-      <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
-        <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
-          <div>
-            <img src={img07} alt="Imagem" />
-          </div>
-          <div className="flex justify-center mb-5">
-            <ButtonCampanha>Acesse</ButtonCampanha>
-          </div>
-        </ScrollReveal>
-        <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
-          <div>
-            <img src={img08} alt="Imagem" />
-          </div>
-          <div className="flex justify-center mb-5">
-            <ButtonCampanha>Acesse</ButtonCampanha>
+            <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720308134955' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
       </div>
       <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
           <div>
-            <img src={img09} alt="Imagem" />
+            <img className="img-campanha" src={img07} alt="Imagem" />
           </div>
           <div className="flex justify-center mb-5">
-            <ButtonCampanha>Acesse</ButtonCampanha>
+            <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720308416269' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
         <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
           <div>
-            <img src={img10} alt="Imagem" />
+            <img className="img-campanha" src={img08} alt="Imagem" />
           </div>
           <div className="flex justify-center mb-5">
-            <ButtonCampanha>Acesse</ButtonCampanha>
+            <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720308892652' target='_blank'>Acesse</ButtonCampanha>
+          </div>
+        </ScrollReveal>
+      </div>
+      <div className="flex flex-col md:flex-row justify-center md:gap-10 justify-items-center md:px-20">
+        <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
+          <div>
+            <img className="img-campanha" src={img09} alt="Imagem" />
+          </div>
+          <div className="flex justify-center mb-5">
+            <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720308724549' target='_blank'>Acesse</ButtonCampanha>
+          </div>
+        </ScrollReveal>
+        <ScrollReveal className="card bg-white max-w-lg flex flex-col gap-5 mb-10 md:mb-20">
+          <div>
+            <img className="img-campanha" src={img10} alt="Imagem" />
+          </div>
+          <div className="flex justify-center mb-5">
+            <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720310080899' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
       </div>
       <div className="flex justify-center gap-10 justify-items-center md:px-20 mb-10 md:mb-0">
         <ScrollReveal className="card bg-white max-w-sm 2xl:max-w-lg 2xl:max-w-lg flex flex-col gap-5">
           <div>
-            <img src={img11} alt="Imagem" />
+            <img className="img-campanha" src={img11} alt="Imagem" />
           </div>
           <div className="flex justify-center mb-5">
-            <ButtonCampanha>Acesse</ButtonCampanha>
+            <ButtonCampanha href='https://www.flickr.com/photos/cfquimicabr/albums/72177720310080899' target='_blank'>Acesse</ButtonCampanha>
           </div>
         </ScrollReveal>
       </div>

@@ -190,7 +190,7 @@ const Campanha = () => {
         </ScrollReveal>
       </div>
       <div className="flex justify-center gap-10 justify-items-center md:px-20 mb-10 md:mb-0">
-        <ScrollReveal className="card bg-white max-w-lg 2xl:max-w-lg flex flex-col gap-5">
+        <ScrollReveal className="card bg-white max-w-sm 2xl:max-w-lg 2xl:max-w-lg flex flex-col gap-5">
           <div>
             <img src={img11} alt="Imagem" />
           </div>

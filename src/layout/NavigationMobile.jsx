@@ -15,14 +15,14 @@ const NavigationMobile = () => {
 
   return (
     <div className="md:hidden mobile-menu">
-      <div className="flex justify-between px-10 py-3" onClick={toggleMenu}>
+      <div className="flex justify-between px-5 py-3" onClick={toggleMenu}>
         <img className="w-20" src={LogoBranca} alt="" />
         <i className="text-2xl fa-solid fa-bars"></i>
       </div>
 
       {isOpen && (
         <div className="dropdown-mobile py-3">
-          <ul className="select-none bg-white flex flex-col items-center gap-3 font-bold md:text-sm lg:text-lg">
+          <ul className="select-none flex flex-col items-center gap-3 font-bold md:text-sm lg:text-lg">
             <li className="cursor-pointer hover:text-mOrange duration-300 focus:text-mOrange">
               <ScrollLink to="inicio" smooth={true} offset={-50} onClick={closeMenu}>
                 <h2>Início</h2>

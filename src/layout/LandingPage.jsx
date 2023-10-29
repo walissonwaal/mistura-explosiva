@@ -12,6 +12,7 @@ import Footer from "./Footer";
 import { motion, useScroll, useSpring } from "framer-motion";
 import NavigationMobile from "./NavigationMobile";
 import ScrollReveal from "../utils/animations/ScrollReveal";
+import VamosJogarMobile from './VamosJogarMobile/index';
 
 function LandingPage() {
   const { scrollYProgress } = useScroll();
@@ -46,6 +47,7 @@ function LandingPage() {
           <Separator />
           <section id="vamos-jogar" className="">
             <VamosJogar />
+            <VamosJogarMobile />
           </section>
           <section id="campanha" className="">
             <Campanha />

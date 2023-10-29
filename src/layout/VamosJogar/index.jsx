@@ -15,7 +15,7 @@ const VamosJogar = () => {
   const { ref: vamosJogarRef, inView: inVieweVamosJogar } = useInView();
 
   return (
-    <div className="vamos-jogar px-6 md:px-20 pb-6 md:pb-20">
+    <div className="hidden md:block vamos-jogar px-6 md:px-20 pb-6 md:pb-20">
       <div
         ref={vamosJogarRef}
         className={`${

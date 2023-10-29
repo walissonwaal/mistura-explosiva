@@ -14,21 +14,21 @@ function Personagens() {
   const { ref: nomePersnagemHebeRef, inView: inViewNomePersonagemHebe } = useInView();
 
   return (
-    <div className="py-6 px-6 md:py-20 md:px-20 ">
-      <h1 ref={personagensRef} className={`${inViewPersonagens ? 'fade-in-left' : ''} text-4xl xl:text-5xl font-black text-mOrange md:mb-8`}>PERSONAGENS</h1>
+    <div className="py-6 px-6 md:py-20 md:px-20 bg-white">
+      <h1 ref={personagensRef} className={`${inViewPersonagens ? 'fade-in-left' : ''} text-2xl xl:text-5xl font-black text-mOrange md:mb-8`}>PERSONAGENS</h1>
       <div className="md:grid md:grid-cols-2 gap-20">
         <div className="">
-          <div ref={nomePersnagemRef} className={`${inViewNomePersonagem ? 'fade-in-right' : ''} text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-extrabold text-mPurple py-10`}>
+          <div ref={nomePersnagemRef} className={`${inViewNomePersonagem ? 'fade-in-right' : ''} text-xl md:text-3xl lg:text-3xl xl:text-4xl font-extrabold text-mPurple py-10`}>
             "Dr." Amon Níako
           </div>
-          <ScrollReveal className="text-xl md:text-lg text-justify md:text-start font-medium text-mPurple mb-5">
+          <ScrollReveal className="text-sm md:text-lg md:text-start font-medium text-mPurple mb-5">
             O “Dr.” Amon Níako é um personagem fictício inspirado nos
             influenciadores digitais que, por falta de conhecimento técnico,
             disseminam nas redes sociais desinformações sobre saneantes e
             ensinam misturas caseiras de produtos de limpeza que, além causar
             prejuízos financeiros, podem oferecer sérios riscos à saúde.
           </ScrollReveal>
-          <ScrollReveal className="text-xl md:text-lg text-justify md:text-start font-medium text-mPurple mb-5">
+          <ScrollReveal className="text-sm md:text-lg md:text-start font-medium text-mPurple mb-5">
             {" "}
             A inspiração para o nome “Amon Níako” veio da amônia (NH3), uma
             substância química que também é conhecida como amoníaco. Em
@@ -38,7 +38,7 @@ function Personagens() {
             seus derivados são seguros e estratégicos, fazendo parte, inclusive,
             da composição de muitos produtos de limpeza.
           </ScrollReveal>
-          <ScrollReveal className="text-xl md:text-lg text-justify md:text-start font-medium text-mPurple mb-5">
+          <ScrollReveal className="text-sm md:text-lg md:text-start font-medium text-mPurple mb-5">
             {" "}
             O nome “Amon” também significa “o oculto” ou “o invisível” – uma
             analogia interessante, já que esse personagem usa o meio digital
@@ -48,7 +48,7 @@ function Personagens() {
             sentindo no próprio corpo os efeitos negativos das suas “misturinhas
             caseiras” de produtos de limpeza.
           </ScrollReveal>
-          <ScrollReveal className="text-xl md:text-lg text-justify md:text-start font-medium text-mPurple mb-5">
+          <ScrollReveal className="text-sm md:text-lg md:text-start font-medium text-mPurple mb-5">
             {" "}
             Assim como o amoníaco, que nas mãos certas é uma matéria-prima
             essencial, o “Dr.” Amon Níako receberá ao longo de sua jornada
@@ -57,7 +57,7 @@ function Personagens() {
           </ScrollReveal>
         </div>
         <ScrollReveal className="flex justify-center">
-          <img ref={amonRef} className={`${inViewAmon ? 'fade-in-right' : ''} personagem mt-60 2xl:mt-20`} src={drAmon} alt="" srcset="" />
+          <img ref={amonRef} className={`${inViewAmon ? 'fade-in-right' : ''} personagem md:mt-60 2xl:mt-20`} src={drAmon} alt="" srcset="" />
         </ScrollReveal>
       </div>
       <div className="py-20">
@@ -65,20 +65,20 @@ function Personagens() {
       </div>
       <div className="md:grid md:grid-cols-2 gap-20">
         <div className="flex justify-center">
-          <img ref={ref} className={`${inView ? 'fade-in-left' : ''} personagem mt-60 2xl:mt-20`} src={hebe} alt="Hebe" />
+          <img ref={ref} className={`${inView ? 'fade-in-left' : ''} personagem md:mt-60 2xl:mt-20`} src={hebe} alt="Hebe" />
         </div>
         <div className="">
         <div ref={nomePersnagemHebeRef} className={`${inViewNomePersonagemHebe ? 'fade-in-right' : ''} text-2xl md:text-3xl lg:text-3xl xl:text-4xl font-extrabold text-mPurple py-10`}>
             Hebe Limpy
           </div>
-          <ScrollReveal className="text-xl md:text-lg text-justify md:text-start font-medium text-mPurple mb-5">
+          <ScrollReveal className="text-sm md:text-lg md:text-start font-medium text-mPurple mb-5">
             A Hebe Limpy é uma Profissional da Química habilitada e especialista
             em saneantes que trabalha em parceria com o Sistema CFQ/CRQs e com a
             ABIPLA, combatendo as desinformações e as misturas caseiras de
             produtos de limpeza que são disseminadas nas redes sociais e em
             outros meios de comunicação. 
           </ScrollReveal>
-          <ScrollReveal className="text-xl md:text-lg text-justify md:text-start font-medium text-mPurple mb-5">
+          <ScrollReveal className="text-sm md:text-lg md:text-start font-medium text-mPurple mb-5">
             {" "}
             Com uma linguagem simples e moderna,
             Hebe leva informações técnicas para a sociedade e desmistifica o uso
@@ -90,7 +90,7 @@ function Personagens() {
             o “Dr.” Amon Níako abandone sua jornada de fake news e
             clandestinidade e encontre o caminho da Ciência Química. 
           </ScrollReveal>
-          <ScrollReveal className="text-xl md:text-lg text-justify md:text-start font-medium text-mPurple mb-5">
+          <ScrollReveal className="text-sm md:text-lg md:text-start font-medium text-mPurple mb-5">
             {" "}
             Ela também é parceira da Central de Informações da Química (CIQ), uma
             iniciativa do Sistema CFQ/CRQs que conta com diversos parceiros para
@@ -98,7 +98,7 @@ function Personagens() {
             mais sobre a CIQ, se tornar um parceiro ou fazer denúncias, basta
             acessar: ciq.cfq.org.br.
           </ScrollReveal>
-          <ScrollReveal className="text-xl md:text-lg text-justify md:text-start font-medium text-mPurple mb-5">
+          <ScrollReveal className="text-sm md:text-lg md:text-start font-medium text-mPurple mb-5">
             {" "}
             Uma curiosidade sobre essa Profissional da
             Química extraordinária é que seu nome é uma homenagem à primeira e

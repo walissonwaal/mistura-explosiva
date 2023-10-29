@@ -61,10 +61,10 @@ img.personagem {
 }
 
 .expandable-section {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   text-align: left;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
@@ -116,6 +116,7 @@ img.personagem {
 p {
   margin-bottom: 1.5rem;
 }
+
 
 .slide-in-left {
 	animation: slide-in-left 2s ease 0s 1 normal forwards;
@@ -174,4 +175,10 @@ p {
 		opacity: 1;
 		transform: translateX(0);
 	}
+}
+
+@media (max-width: 600px) {
+  .personagem {
+    width: 10rem;
+  }
 }

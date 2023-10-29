@@ -10,7 +10,7 @@ function Inicio() {
         <source src={VinhetaHorizontal} type="video/mp4" />
         Seu navegador não suporta a exibição de vídeos em HTML5.
       </video>
-      <video autoPlay loop muted className='hidden video-vertical mt-[-5rem] overflow-y-hidden'>
+      <video autoPlay loop muted className='md:hidden mt-10'>
         <source src={VinhetaVertical} type="video/mp4" />
         Seu navegador não suporta a exibição de vídeos em HTML5.
       </video>

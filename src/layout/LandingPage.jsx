@@ -21,7 +21,7 @@ function LandingPage() {
     restDelta: 0.001,
   });
   return (
-    <div className="">
+    <div className="container-landing-page">
       <motion.div className="progress-bar" style={{ scaleX }} />
       <div className="landing-page">
         <header className="">

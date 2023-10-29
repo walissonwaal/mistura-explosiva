@@ -5,11 +5,7 @@ import LogoBranca from "../assets/imgs/logo-branca.png";
 
 function Navigation() {
   const [navbarClass, setNavbarClass] = useState("");
-  const [activeMenuItem, setActiveMenuItem] = useState(null);
-
-  const handleMenuItemClick = (menuItemId) => {
-    setActiveMenuItem(menuItemId);
-  };
+  const [activeMenuItem, setActiveMenuItem] = useState(false);
 
   const handleScroll = () => {
     if (window.scrollY > 100) {

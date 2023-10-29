@@ -9,7 +9,7 @@ const Regras = () => {
   const { ref: regrasRef, inView: inViewRegras } = useInView();
   return (
     <div className="regras md:px-20 relative">
-      <img className="absolute z-10 w-[700px] top-[350px]" src={BackgroundImage} alt="" />
+      <img className="absolute z-10 w-[700px] top-[450px] 2xl:top-[400px]" src={BackgroundImage} alt="" />
       <div className="py-6 px-6 md:py-20 md:px-20">
         <div ref={regrasRef} className={`${inViewRegras ? 'fade-in-left':''} flex items-end gap-8 pb-20`}>
           <div className="w-40">

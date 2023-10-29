@@ -152,7 +152,7 @@ const VamosJogar = () => {
                 direto para o Cenário N° 2.{" "}
               </p>
               <p className="text-xl text-justify md:text-start font-medium text-mPurple mb-5">
-                Casa “Fim”: última casa do jogo. Para conquistar a vitória, o(a)
+              <span className="font-bold">Casa “Fim”:</span> última casa do jogo. Para conquistar a vitória, o(a)
                 jogador(a) deverá acessar o QR Code dessa casa e assistir ao
                 vídeo.
               </p>

@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const ButtonCampanha = ({children}) => {
+const ButtonCampanha = ({ children, href}) => {
   return (
-    <button className='shadow-md px-28 py-3 rounded-xl bg-mOrange text-white text-2xl font-black'>{children}</button>
+    <a href={href} className="shadow-md px-20 2xl:px-28 py-2 rounded-xl bg-mOrange text-white text-xl font-black hover:bg-[#ccc] duration-300">
+      {children}
+    </a>
   );
-}
+};
 
 export default ButtonCampanha;
